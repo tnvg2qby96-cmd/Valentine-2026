@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Princess 💖</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background: #fff0f6;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.container {
+text-align: center;
+}
+
+img {
+max-width: 300px;
+border-radius: 15px;
+}
+
+h1 {
+color: #ad1457;
+margin-top: 20px;
+}
+
+.yay {
+display: none;
+margin-top: 20px;
+font-size: 1.5em;
+color: #d81b60;
+}
+
+button {
+margin-top: 20px;
+font-size: 1.2em;
+padding: 12px 25px;
+border: none;
+border-radius: 8px;
+background-color: #ff4d88;
+color: white;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<img src="princess.jpg" alt="Princess Steph 👑">
+<h1>Will you be my Valentine, Princess? 👑💖</h1>
+<button onclick="showYay()">Yes 💕</button>
+
+<div class="yay" id="yay">
+YAY!!! 🎉💖 
+Thank you, my princess 👑
+</div>
+</div>
+
+<script>
+function showYay() {
+document.getElementById("yay").style.display = "block";
+}
+</script>
+
+</body>
+</html>
